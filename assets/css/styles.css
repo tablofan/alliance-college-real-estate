@@ -534,7 +534,7 @@ input, select, textarea { font-family: inherit; }
 .question-list-summary strong { color: var(--ac-text); }
 
 /* File-upload drop zone */
-.upload-zone { border: 2px dashed var(--ac-border-strong); border-radius: var(--ac-radius-lg); padding: 28px 24px; text-align: center; background: var(--ac-bg); transition: background .15s, border-color .15s; cursor: pointer; }
+.upload-zone { display: block; position: relative; border: 2px dashed var(--ac-border-strong); border-radius: var(--ac-radius-lg); padding: 28px 24px; text-align: center; background: var(--ac-bg); transition: background .15s, border-color .15s; cursor: pointer; }
 .upload-zone:hover, .upload-zone.dragover { border-color: var(--ac-primary); background: var(--ac-primary-50); }
 .upload-zone .upload-icon { width: 48px; height: 48px; border-radius: 50%; background: #fff; color: var(--ac-primary); display: inline-flex; align-items: center; justify-content: center; margin-bottom: 12px; }
 .upload-zone h4 { margin: 0 0 4px 0; font-size: 14px; font-weight: 600; }
